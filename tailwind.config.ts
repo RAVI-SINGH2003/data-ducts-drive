@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				generate: {
+					DEFAULT: 'hsl(var(--generate))',
+					foreground: 'hsl(var(--generate-foreground))'
+				},
+				download: {
+					DEFAULT: 'hsl(var(--download))',
+					foreground: 'hsl(var(--download-foreground))'
+				},
+				required: 'hsl(var(--required))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
